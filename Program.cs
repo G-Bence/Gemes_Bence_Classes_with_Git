@@ -10,6 +10,7 @@ namespace Task_250207
     {
         static void Main(string[] args)
         {
+            /*
             Books book1 = new Books("Harry Potter", "J.K. Rowling", 1997, 300, 5000);
             Books book2 = new Books("The Lord of the Rings", "J.R.R. Tolkien");
 
@@ -36,6 +37,9 @@ namespace Task_250207
             Console.WriteLine(book2.Price);
 
             Console.ReadKey();
+            */
+
+
         }
     }
 }
