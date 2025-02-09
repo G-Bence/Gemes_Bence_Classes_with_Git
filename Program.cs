@@ -39,7 +39,30 @@ namespace Task_250207
             Console.ReadKey();
             */
 
+            Film film1 = new Film("The Shawshank Redemption", "Frank Darabont", 142, "Drama", true);
+            Film film2 = new Film("The Godfather", "Francis Ford Coppola");
 
+            Console.WriteLine(film1.isPlaying());
+            Console.WriteLine(film1.newGenre("Crimi"));
+            Console.WriteLine(film1.enlongLength(20));
+
+            film2.Length = 175;
+            film2.Genre = "Crime";
+            film2.Release = true;
+
+            Console.WriteLine(film1.Title);
+            Console.WriteLine(film1.Director);
+            Console.WriteLine(film1.Length);
+            Console.WriteLine(film1.Genre);
+            Console.WriteLine(film1.Release);
+
+            Console.WriteLine("\n");
+
+            Console.WriteLine(film2.Title);
+            Console.WriteLine(film2.Director);
+            Console.WriteLine(film2.Length);
+            Console.WriteLine(film2.Genre);
+            Console.WriteLine(film2.Release);
         }
     }
 }
