@@ -67,8 +67,28 @@ namespace Task_250207
             Console.WriteLine(film2.Release);
             */
 
+            Game_Character character1 = new Game_Character("John", 5, 100, 50);
+            Game_Character character2 = new Game_Character("Jack", 70);
 
+            Console.WriteLine(character1.Attack());
+            Console.WriteLine(character1.Heal(20));
+            Console.WriteLine(character1.LevelUp());
 
+            character2.Level = 100;
+            character2.Health = 1000;
+            character2.Demage = 100;
+
+            Console.WriteLine(character1.Name);
+            Console.WriteLine(character1.Level);
+            Console.WriteLine(character1.Health);
+            Console.WriteLine(character1.Demage);
+
+            Console.WriteLine("\n");
+
+            Console.WriteLine(character2.Name);
+            Console.WriteLine(character2.Level);
+            Console.WriteLine(character2.Health);
+            Console.WriteLine(character2.Demage);
 
 
 
