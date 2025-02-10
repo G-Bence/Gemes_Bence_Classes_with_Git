@@ -92,6 +92,8 @@ namespace Task_250207
             Console.WriteLine(character2.Demage);
             */
 
+
+            /*
             Space_Craft space_craft1 = new Space_Craft("Apollo", 1000, 3, 100);
             Space_Craft space_craft2 = new Space_Craft("Voyager", 5);
 
@@ -117,6 +119,8 @@ namespace Task_250207
             Console.WriteLine(space_craft2.Fuel_Level);
 
             Console.WriteLine(space_craft1.Landing());
+            */
+
 
 
             Console.ReadKey();
