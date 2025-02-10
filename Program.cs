@@ -91,7 +91,32 @@ namespace Task_250207
             Console.WriteLine(character2.Health);
             Console.WriteLine(character2.Demage);
             */
-            
+
+            Space_Craft space_craft1 = new Space_Craft("Apollo", 1000, 3, 100);
+            Space_Craft space_craft2 = new Space_Craft("Voyager", 5);
+
+            Console.WriteLine(space_craft1.Start());
+            Console.WriteLine(space_craft1.Refuel(50));
+
+            Console.WriteLine("\n");
+
+            space_craft2.Speed = 10;
+            space_craft2.Passanger_Capacity = 10;
+            space_craft2.Fuel_Level += 50;
+
+            Console.WriteLine(space_craft1.Name);
+            Console.WriteLine(space_craft1.Speed);
+            Console.WriteLine(space_craft1.Passanger_Capacity);
+            Console.WriteLine(space_craft1.Fuel_Level);
+
+            Console.WriteLine("\n");
+
+            Console.WriteLine(space_craft2.Name);
+            Console.WriteLine(space_craft2.Speed);
+            Console.WriteLine(space_craft2.Passanger_Capacity);
+            Console.WriteLine(space_craft2.Fuel_Level);
+
+            Console.WriteLine(space_craft1.Landing());
 
 
             Console.ReadKey();
