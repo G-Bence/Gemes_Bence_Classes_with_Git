@@ -67,6 +67,7 @@ namespace Task_250207
             Console.WriteLine(film2.Release);
             */
 
+            /*
             Game_Character character1 = new Game_Character("John", 5, 100, 50);
             Game_Character character2 = new Game_Character("Jack", 70);
 
@@ -89,7 +90,8 @@ namespace Task_250207
             Console.WriteLine(character2.Level);
             Console.WriteLine(character2.Health);
             Console.WriteLine(character2.Demage);
-
+            */
+            
 
 
             Console.ReadKey();

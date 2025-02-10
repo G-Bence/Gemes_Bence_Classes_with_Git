@@ -48,6 +48,7 @@
     <Compile Include="Game_Character.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Space_Craft.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
