@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Books.cs" />
     <Compile Include="Film.cs" />
+    <Compile Include="Game_Character.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

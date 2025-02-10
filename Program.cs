@@ -39,6 +39,8 @@ namespace Task_250207
             Console.ReadKey();
             */
 
+
+            /*
             Film film1 = new Film("The Shawshank Redemption", "Frank Darabont", 142, "Drama", true);
             Film film2 = new Film("The Godfather", "Francis Ford Coppola");
 
@@ -63,6 +65,14 @@ namespace Task_250207
             Console.WriteLine(film2.Length);
             Console.WriteLine(film2.Genre);
             Console.WriteLine(film2.Release);
+            */
+
+
+
+
+
+
+            Console.ReadKey();
         }
     }
 }
