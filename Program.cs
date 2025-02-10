@@ -121,6 +121,30 @@ namespace Task_250207
             Console.WriteLine(space_craft1.Landing());
             */
 
+            Spy_Mission mission1 = new Spy_Mission("Red_Spy", "Russia", 10, 90);
+            Spy_Mission mission2 = new Spy_Mission("Blu_Spy", "USA");
+
+            Console.WriteLine(mission1.Start_Mission());
+            Console.WriteLine(mission1.Increase_Danger_Level(5));
+            Console.WriteLine(mission1.Increase_Chance_Of_Success(10));
+
+            Console.WriteLine("\n");
+
+            mission2.Danger_Level = 3;
+            mission2.Chance_Of_Success = 70;
+            mission2.Code_Name = "Green_Spy";
+
+            Console.WriteLine(mission1.Code_Name);
+            Console.WriteLine(mission1.Country);
+            Console.WriteLine(mission1.Danger_Level);
+            Console.WriteLine(mission1.Chance_Of_Success);
+
+            Console.WriteLine("\n");
+
+            Console.WriteLine(mission2.Code_Name);
+            Console.WriteLine(mission2.Country);
+            Console.WriteLine(mission2.Danger_Level);
+            Console.WriteLine(mission2.Chance_Of_Success);
 
 
             Console.ReadKey();
